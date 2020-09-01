@@ -7,7 +7,7 @@
 <script type="text/javascript">
     $(document).ready(function () {
         $('#Container').jtable({
-            title: 'Patient List',
+            title: 'Person Name',
             paging: false,
             actions: {
                 listAction: '@Url.Action("GetAllRecords")',
@@ -23,7 +23,7 @@
                     list: false
                 },
                 PatientName: {
-                    title: 'Patient Name',
+                    title: 'Person Name',
                     width: '23%'
                 },
                 Height: {
