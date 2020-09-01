@@ -14,7 +14,7 @@ namespace SimpleCrud.Repository
     {
         //connectionString - get this from config
         //string connectionString = @"Data Source=localhost\sqlexpress;Initial Catalog=PatientDb;Integrated Security=True";
-        string connectionString = ConfigurationManager.ConnectionStrings["ConnectAzure"].ConnectionString;
+        string connectionString = ConfigurationManager.ConnectionStrings["AzureConnect"].ConnectionString;
 
 
         public List<Patient> GetAllRecords()
